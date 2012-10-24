@@ -9,28 +9,22 @@ package projeto;
  * @author R
  */
 public class LoginBean {
-    private String login;
-    private String senha;
+    private String nome;
+    
 
-    public LoginBean(String login, String senha) {
-        this.login = login;
-        this.senha = senha;
+    public LoginBean(String nome, String senha) {
+        this.nome = nome;
+        
     }
 
     public String getLogin() {
-        return login;
+        return nome;
     }
 
-    public void setLogin(String login) {
-        this.login = login;
+    public void setLogin(String nome) {
+        this.nome = nome;
     }
 
-    public String getSenha() {
-        return senha;
-    }
+  
 
-    public void setSenha(String senha) {
-        this.senha = senha;
-    }
-     
 }
